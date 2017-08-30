@@ -1,0 +1,29 @@
+body {
+    padding: 15% 0;
+}
+
+.header {
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: lowercase;
+
+    b {
+        text-transform: uppercase;
+    }
+}
+
+.open, .forsale {
+    margin-top: 10%;
+    padding-top: 2em;
+    border-top: 1px solid #ddd;
+}
+
+.object {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: .5em;
+    height: 100px;
+    margin: 0 1em 1em 0;
+}
