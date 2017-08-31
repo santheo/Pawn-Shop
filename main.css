@@ -1,0 +1,254 @@
+
+
+* {
+  padding: 0;
+  border: none;
+  font-family: 'EB Garamond', serif;
+}
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+body {
+  }
+
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: 'EB Garamond', serif;
+}
+
+a:hover {
+	color: white;
+}
+
+#ruun {
+	position:relative; 
+	display: block;
+	width: 70%; 
+	height: 0;
+	padding-bottom:80%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#text {
+	position:relative; 
+	display: inline-block;
+	width: 28%; 
+	max-width: 1280px; 
+	height: 100%; 
+	max-height: 800px; 
+	vertical-align:top;
+	margin-top: 5%;
+	margin-left: 1%; 
+	margin-right: auto;
+	color: white;
+}
+
+.linkylink {
+display: block; 
+position: absolute;
+max-width: 20%; 
+background-color: grey; 
+color: white; 
+text-decoration:overline; 
+font-size:18px; 
+padding:5px;
+}
+
+.linkylink:hover{
+text-decoration:underline;
+}
+
+.ruunText {
+	max-width: 100%; max-height: 100%;  position: absolute; 
+}
+
+.ruunic a:hover {
+  border: 2px;
+  
+}
+
+
+.ruunSounds {
+	max-width: 100%; max-height: 100%; width: 10%;  position: absolute;
+}
+
+
+
+
+
+#moon {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 10s linear infinite;
+  -webkit-animation: orbit 10s linear infinite;
+  -moz-animation: orbit 10s linear infinite;
+  -o-animation: orbit 10s linear infinite;
+  
+}
+#moon2 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 9s linear infinite;
+  -webkit-animation: orbit 9s linear infinite;
+  -moz-animation: orbit 9s linear infinite;
+  -o-animation: orbit 9s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: .7s;
+}
+#moon3 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 5s linear infinite;
+  -webkit-animation: orbit 5s linear infinite;
+  -moz-animation: orbit 5s linear infinite;
+  -o-animation: orbit 5s linear infinite;
+  	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+#moon4 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 20s linear infinite;
+  -webkit-animation: orbit 20s linear infinite;
+  -moz-animation: orbit 20s linear infinite;
+  -o-animation: orbit 20s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: 10s;
+}
+
+#moon5 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 12s linear infinite;
+  -webkit-animation: orbit 12s linear infinite;
+  -moz-animation: orbit 12s linear infinite;
+  -o-animation: orbit 12s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: 5s;
+}
+
+#moon6 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 3s linear infinite;
+  -webkit-animation: orbit 3s linear infinite;
+  -moz-animation: orbit 3s linear infinite;
+  -o-animation: orbit 3s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: .4s;
+}
+
+#moon7 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 7s linear infinite;
+  -webkit-animation: orbit 7s linear infinite;
+  -moz-animation: orbit 7s linear infinite;
+  -o-animation: orbit 7s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: .1s;
+}
+
+#moon8 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 100s linear infinite;
+  -webkit-animation: orbit 100s linear infinite;
+  -moz-animation: orbit 100s linear infinite;
+  -o-animation: orbit 100s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+}
+
+#moon9 {
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  animation: orbit 16s linear infinite;
+  -webkit-animation: orbit 16s linear infinite;
+  -moz-animation: orbit 16s linear infinite;
+  -o-animation: orbit 16s linear infinite;
+  	-webkit-animation-delay: .7s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+
+
+@keyframes orbit {
+  0% {left: -20%; z-index: 20; transform:scale(1,1);}
+  4% {left: -18.5%;}
+  25% {transform:scale(1.5, 1.5);}
+  46% {left: 18.5%;}
+  50% {left: 20%; z-index: 20; transform:scale(1,1);}
+  54% {left: 18.5%; z-index: 5;}
+  75% {transform:scale(0.5, 0.5);}
+  96% {left: -18.5%;}
+  100% {left: -20%; z-index: 5;}
+}
+@-webkit-keyframes orbit {
+  0% {left: -20%; z-index: 20; -webkit-transform:scale(1,1);}
+  4% {left: -18.5%;}
+  25% {-webkit-transform:scale(1.5, 1.5);}
+  46% {left: 18.5%;}
+  50% {left: 200%; z-index: 20; -webkit-transform:scale(1,1);}
+  54% {left: 18.5%; z-index: 5;}
+  75% {-webkit-transform:scale(0.5, 0.5);}
+  96% {left: -18.5%;}
+  100% {left: -200%; z-index: 5;}
+}
+@-moz-keyframes orbit {
+  0% {left: -20%; z-index: 20; -moz-transform:scale(1,1);}
+  4% {left: -18.5%;}
+  25% {-moz-transform:scale(1.5, 1.5);}
+  46% {left: 18.5%;}
+  50% {left: 20%; z-index: 20; -moz-transform:scale(1,1);}
+  54% {left: 18.5%; z-index: 5;}
+  75% {-moz-transform:scale(0.5, 0.5);}
+  96% {left: -18.5%;}
+  100% {left: -20%; z-index: 5;}
+}
+@-o-keyframes orbit {
+  0% {left: -20%; z-index: 20; -o-transform:scale(1,1);}
+  4% {left: -18.5%;}
+  25% {-o-transform:scale(1.5, 1.5);}
+  46% {left: 18.5%;}
+  50% {left: 20%; z-index: 20; -o-transform:scale(1,1);}
+  54% {left: 18.5%; z-index: 5;}
+  75% {-o-transform:scale(0.5, 0.5);}
+  96% {left: -18.5%;}
+  100% {left: -20%; z-index: 5;}
+}
+
